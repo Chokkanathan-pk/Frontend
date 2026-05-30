@@ -35,9 +35,9 @@ function App() {
 
         {/* <ExampleTwo/> */}
 
-        <Link to="/" >Home</Link>
+        {/* <Link to="/" >Home</Link>
         <Link to="/Product">Product</Link>
-        <Link to="/Concat">About</Link>
+        <Link to="/Concat">About</Link> */}
 
       <Routes> 
         <Route path="/" element={<Home/>}/>
@@ -50,7 +50,7 @@ function App() {
         
       </Routes>
 
-        {/* <Form/> */}
+        <Form/>
       </div>
 
     </BrowserRouter>
