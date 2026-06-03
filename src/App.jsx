@@ -8,6 +8,7 @@ import Form from "./Components/Form";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Product from "./Components/Product";
+import Netflix from "./Components/Netflix";
 import { BrowserRouter,Link,Routes,Route } from "react-router-dom";
 
 
@@ -23,10 +24,10 @@ function App() {
 
     <BrowserRouter>
       <div>
-        <h1>Today</h1>
+        {/* <h1>Today</h1> */}
       
 
-
+        <Netflix />
         {/* <TicketBook /> */}
 
         {/* {islog ? <ApiCallOne /> :null} */}
@@ -35,11 +36,11 @@ function App() {
 
         {/* <ExampleTwo/> */}
 
-        <Link to="/" >Home</Link>
+        {/* <Link to="/" >Home</Link>
         <Link to="/Product">Product</Link>
-        <Link to="/Concat">About</Link>
+        <Link to="/Concat">About</Link> */}
 
-      <Routes> 
+      {/* <Routes> 
         <Route path="/" element={<Home/>}/>
 
         <Route path="/Product" element={<Product/>}/>
@@ -48,7 +49,7 @@ function App() {
 
            
         
-      </Routes>
+      </Routes> */}
 
         {/* <Form/> */}
       </div>
