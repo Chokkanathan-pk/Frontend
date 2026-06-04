@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Netflix.css";
+// import "./Netflix.css";
 
 
 export default function Netflix() {
