@@ -11,6 +11,7 @@ import Product from "./Components/Product";
 import Netflix from "./Components/Netflix";
 import { BrowserRouter,Link,Routes,Route } from "react-router-dom";
 import GroccercyList from "./Components/GroccercyList";
+import FilterApp from "./Components/FilterApp";
 
 
 
@@ -31,9 +32,11 @@ function App() {
         {/* <Netflix /> */}
         {/* <TicketBook /> */}
 
+        <FilterApp />
 
 
-        <GroccercyList/>
+
+        {/* <GroccercyList/> */}
         {/* {islog ? <ApiCallOne /> :null} */}
 
         {/* <button onClick={handlelog} > Logout </button> */}

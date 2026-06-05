@@ -32,11 +32,11 @@ export default function GroccercyList() {
         }
         let apisend = await axios.post("http://localhost:3000/todoList" , body)
 
-     handelfetch()
-        
-    
-        
+     handelfetch()    
+    };
 
+    const handledelete = (id)=>{
+       console.log(id)
     }
 
     return(
@@ -50,7 +50,7 @@ export default function GroccercyList() {
                 <div key={da.id}>
 
                     <h2>{i=i+1} {da.list}</h2>
-                    <button>Delete</button>
+                    <button onClick={()=>handledelete(da.id)}>Delete</button>
                     <button>Edit</button>
 
                 </div>
